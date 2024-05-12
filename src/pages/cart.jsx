@@ -27,7 +27,7 @@ function Cart(){
                   <h1>장바구니 내역</h1>
                   <p>담긴갯수 : <span>{cartState.length}</span></p>
                   <p>총 가격  : <span>{Math.floor(totlaPrice * 1300).toLocaleString('ko-KR')}원</span></p>
-                  <p>===============================</p>
+                  ===========================
                 </div>
                 <div className="center-flex-column">
                   {

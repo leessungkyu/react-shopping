@@ -1,0 +1,44 @@
+.tile-container{
+  display:flex;
+  background-color:burlywood;
+  width:700px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 8px auto;
+  border-radius: 12px;
+}
+.flex-padding{
+  display: flex;
+  padding: 8px;
+  align-items: center;
+}
+.rounded-box{
+  width: 100px;
+  height: 100px;
+}
+.product_title{
+  font-size: 1.25rem;
+  color:cornsilk;
+  overflow: hidden;
+  width: 20rem;
+  text-overflow: ellipsis;  /*넘치면 ...*/
+  white-space: nowrap;  
+  padding: 0 50px;
+}
+.product_title:hover{
+  overflow: visible;
+  color:black;
+  z-index: 1;
+}
+.product_price{
+  color: cornsilk;
+  font-weight: bold;
+}
+.bold-red-btn{
+  background-color: chocolate;
+  color: cornsilk;
+  font-weight: bold;
+  border:none;
+  border-radius: 8px;
+}
